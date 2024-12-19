@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    #quote-box {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    #quote {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    #author {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+    }
+    button {
+      margin: 15px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #6c5ce7;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #4b4fc1;
+    }
+  </style>
+</head>
+<body>
+  <div id="quote-box">
+    <p id="quote">Click the button to get a random quote.</p>
+    <p id="author"></p>
+    <button id="new-quote">New Quote</button>
+    <button id="copy-quote">Copy Quote</button>
+  </div>
+
+  <script src="a.js"></script>
+</body>
+</html>
